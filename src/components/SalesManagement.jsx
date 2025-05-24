@@ -3,11 +3,11 @@ import SalesTable from "./SalesTable";
 import TableFooter from "./TableFooter";
 import { Calendar, HelpCircle, RefreshCw } from "lucide-react";
 
-const SalesManagement = () => {
+const SalesManagement = ( {setCurrentFocus}) => {
   return (
     <div className="flex flex-col h-full">
       <div className="flex w-full h-full ">
-        <div className="w-3/4">
+        <div className="w-4/5">
           <div className="p-4 bg-white border-b border-gray-200">
             <div className="flex justify-between items-center">
               <h2 className="text-xl font-medium text-gray-800">
@@ -16,11 +16,11 @@ const SalesManagement = () => {
             </div>
           </div>
           <div className="flex-1 overflow-auto">
-            <SalesTable />
+            <SalesTable currentFocus={setCurrentFocus} />
           </div>
         </div>
         <div className="bg-gray-300 w-[2px]"></div>
-        <div className="w-1/4">
+        <div className="w-1/5">
           <div className="p-4 bg-white border-b border-gray-200">
             <div className="flex justify-between items-center">
               <div className="flex items-center space-x-4">
