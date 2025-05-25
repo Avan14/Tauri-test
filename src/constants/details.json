@@ -1,0 +1,1053 @@
+ [{
+  "_id": "65185a7449a314cae6c0d188",
+  "medicine_name": "Endomart 500mg Tablet SR 10 tablet sr",
+  "salt_composition": "Metformin (500mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹19.3",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablet sr",
+  "category": "drugs",
+  "skuID": "NE000000010",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hasInventory": 0,
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d189",
+  "medicine_name": "Cartivent 6mg Tablet 10 tablets",
+  "salt_composition": "Deflazacort (6mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹100",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000011",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d18a",
+  "medicine_name": "Endomart G 1mg/500mg Tablet SR 10 tablet sr",
+  "salt_composition": "Glimepiride (1mg) + Metformin (500mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹80",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablet sr",
+  "category": "drugs",
+  "skuID": "NE000000012",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d18b",
+  "medicine_name": "Xenotrip 10mg Tablet 10 tablets",
+  "salt_composition": "Amitriptyline (10mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹22.3",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000013",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d18c",
+  "medicine_name": "Rosumart 10mg Tablet 10 tablets",
+  "salt_composition": "Rosuvastatin (10mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "100.0",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000014",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hasInventory": 1,
+  "gst": "12",
+  "hsn": "1243",
+  "updated_by": "elixire",
+  "updated_time": "2024-01-06 01:42:17.878636",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d18d",
+  "medicine_name": "Tendorid 37.5mg/325mg Tablet 10 tablets",
+  "salt_composition": "Tramadol (37.5mg) + Paracetamol (325mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "46",
+  "beingSold": false,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000015",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d18e",
+  "medicine_name": "Xencox 120mg Tablet 10 tablets",
+  "salt_composition": "Etoricoxib (120mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹140",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000016",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d18f",
+  "medicine_name": "Tenovent Syrup 100 ml",
+  "salt_composition": "Ambroxol (15mg/5ml) + Guaifenesin (50mg/5ml) + Terbutaline (1.25mg/5ml)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹65",
+  "beingSold": true,
+  "packagingType": "bottle",
+  "pack": "100 ml",
+  "category": "drugs",
+  "skuID": "NE000000017",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d190",
+  "medicine_name": "Xenoten CV 200mg/125mg Tablet 6 tablets",
+  "salt_composition": "Cefpodoxime Proxetil (200mg) + Clavulanic Acid (125mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹210",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "6 tablets",
+  "category": "drugs",
+  "skuID": "NE000000018",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d191",
+  "medicine_name": "Xenowin OZ 250mg/500mg Tablet 10 tablets",
+  "salt_composition": "Levofloxacin (250mg) + Ornidazole (500mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹100",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000019",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d192",
+  "medicine_name": "Cardiomart 40mg Tablet 10 tablets",
+  "salt_composition": "Telmisartan (40mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹65",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000020",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d193",
+  "medicine_name": "Cardiomart AP 5mg/4mg Tablet 10 tablets",
+  "salt_composition": "Amlodipine (5mg) + Perindopril erbumine (4mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹150",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000021",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d194",
+  "medicine_name": "Cardiomart H 40mg/12.5mg Tablet 10 tablets",
+  "salt_composition": "Telmisartan (40mg) + Hydrochlorothiazide (12.5mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹72",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000022",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d195",
+  "medicine_name": "Endomart G 2mg/500mg Tablet SR 10 tablet sr",
+  "salt_composition": "Glimepiride (2mg) + Metformin (500mg)",
+  "storage_details": "Store below 30°C",
+  "mrp": "₹64",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablet sr",
+  "category": "drugs",
+  "skuID": "NE000000023",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "hsn": "30049099 ",
+  "Tdatetime_lastUpdated": "2024-10-27T16:19:30.483000",
+  "status": "Reviewed",
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "Tdatetime_updatedTime": "2025-03-23T16:34:15.433000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d196",
+  "medicine_name": "Cardiomart AM 40mg/5mg Tablet 10 tablets",
+  "salt_composition": "Telmisartan (40mg) + Amlodipine (5mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹95",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000024",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d198",
+  "medicine_name": "Histadex P Syrup 60 ml",
+  "salt_composition": "Chlorpheniramine Maleate (2mg/5ml) + Paracetamol (250mg/5ml) + Phenylephrine (5mg/5ml)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹57",
+  "beingSold": true,
+  "packagingType": "bottle",
+  "pack": "60 ml",
+  "category": "drugs",
+  "skuID": "NE000000026",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d199",
+  "medicine_name": "Tendonil 100mg/4mg Tablet 10 tablets",
+  "salt_composition": "Aceclofenac (100mg) + Thiocolchicoside (4mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹190",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000027",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d19a",
+  "medicine_name": "Xenopam 0.5mg/10mg Tablet 10 tablets",
+  "salt_composition": "Clonazepam (0.5mg) + Escitalopram Oxalate (10mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "121",
+  "beingSold": false,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000028",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d19b",
+  "medicine_name": "Zomart IT 20mg/150mg Tablet SR 10 tablet sr",
+  "salt_composition": "Rabeprazole (20mg) + Itopride (150mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹150",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablet sr",
+  "category": "drugs",
+  "skuID": "NE000000029",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d19c",
+  "medicine_name": "Xencox TH 60mg/4mg Tablet 10 tablets",
+  "salt_composition": "Etoricoxib (60mg) + Thiocolchicoside (4mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹200",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000030",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d19d",
+  "medicine_name": "Tendonil P 100mg/325mg Tablet 10 tablets",
+  "salt_composition": "Aceclofenac (100mg) + Paracetamol (325mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹50",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000031",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d19e",
+  "medicine_name": "Zomart LS 75mg/20mg Tablet SR 10 tablet sr",
+  "salt_composition": "Levosulpiride (75mg) + Rabeprazole (20mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹150",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablet sr",
+  "category": "drugs",
+  "skuID": "NE000000032",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d19f",
+  "medicine_name": "Tenospas 80mg/250mg Tablet 10 tablets",
+  "salt_composition": "Drotaverine (80mg) + Mefenamic Acid (250mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹75",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000033",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d1a0",
+  "medicine_name": "Xenokast FX 10mg/120mg Tablet 10 tablets",
+  "salt_composition": "Montelukast (10mg) + Fexofenadine (120mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹148",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000034",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d1a1",
+  "medicine_name": "Xenotin 16mg Tablet 10 tablets",
+  "salt_composition": "Betahistine (16mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹75",
+  "beingSold": true,
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablets",
+  "category": "drugs",
+  "skuID": "NE000000035",
+  "prescription_req": "true",
+  "marketed_by": "10 Drug Mart",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d211",
+  "medicine_name": "1Mile 200 micron Be Alert Protective Isolation Mask 5 units",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹249",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "5 units",
+  "category": "otc",
+  "skuID": "NE000000147",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d212",
+  "medicine_name": "1Mile 3 in 1 Steam Vaporizer 1 Unit",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹375",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "1 Unit",
+  "category": "otc",
+  "skuID": "NE000000148",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d213",
+  "medicine_name": "1Mile 3Ply Work Safety Kit 1 Kit",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹229",
+  "beingSold": true,
+  "packagingType": "packet",
+  "pack": "1 Kit",
+  "category": "otc",
+  "skuID": "NE000000149",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d214",
+  "medicine_name": "1Mile 500 micron Be Alert Protective Isolation Mask 2 units",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹159",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "2 units",
+  "category": "otc",
+  "skuID": "NE000000150",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d215",
+  "medicine_name": "1Mile 5cm White Microporous Hypoallergenic Surgical Tape 6 tapes",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹600",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "6 tapes",
+  "category": "otc",
+  "skuID": "NE000000151",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d216",
+  "medicine_name": "1Mile 70 GSM Coverall Free Size 1 Kit",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹179",
+  "beingSold": true,
+  "packagingType": "packet",
+  "pack": "1 Kit",
+  "category": "otc",
+  "skuID": "NE000000152",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d217",
+  "medicine_name": "1Mile Adult Diaper Medium 10 diapers",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹455",
+  "beingSold": true,
+  "packagingType": "packet",
+  "pack": "10 diapers",
+  "category": "otc",
+  "skuID": "NE000000153",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d218",
+  "medicine_name": "1Mile Blue Universal 3 Ply Disposable Surgical Face Mask with Nose Pin 25 masks",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹175",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "25 masks",
+  "category": "otc",
+  "skuID": "NE000000154",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d219",
+  "medicine_name": "1Mile Blue Universal 3 Ply Disposable Surgical Face Mask with Nose Pin 100 masks",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹499",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "100 masks",
+  "category": "otc",
+  "skuID": "NE000000155",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d21b",
+  "medicine_name": "1Mile Household Glove Universal 1 Pair of Gloves",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹99",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "1 Pair of Gloves",
+  "category": "otc",
+  "skuID": "NE000000157",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d21c",
+  "medicine_name": "1Mile N95 Travel Safety Kit 1 Kit",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹469",
+  "beingSold": true,
+  "packagingType": "packet",
+  "pack": "1 Kit",
+  "category": "otc",
+  "skuID": "NE000000158",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn": "62101000 ",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d229",
+  "medicine_name": "1Mile Disposable Medical Examination Glove Large 80 Gloves",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹559",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "80 Gloves",
+  "category": "otc",
+  "skuID": "NE000000171",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d22a",
+  "medicine_name": "1Mile Disposable Medical Examination Glove Medium 100 Gloves",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹850",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "100 Gloves",
+  "category": "otc",
+  "skuID": "NE000000172",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d22b",
+  "medicine_name": "1Mile Disposable Medical Examination Glove Medium 20 Gloves",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹149",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "20 Gloves",
+  "category": "otc",
+  "skuID": "NE000000173",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d22c",
+  "medicine_name": "1Mile Disposable Medical Examination Glove XS 80 Gloves",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹559",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "80 Gloves",
+  "category": "otc",
+  "skuID": "NE000000174",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d22f",
+  "medicine_name": "1Mile Household Glove Universal 5 Pair of Gloves",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹469",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "5 Pair of Gloves",
+  "category": "otc",
+  "skuID": "NE000000177",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d244",
+  "medicine_name": "1Mile Disposable Medical Examination Glove Small 20 Gloves",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹149",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "20 Gloves",
+  "category": "otc",
+  "skuID": "NE000000198",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d245",
+  "medicine_name": "1Mile Disposable Medical Examination Glove Small 80 Gloves",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹559",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "80 Gloves",
+  "category": "otc",
+  "skuID": "NE000000199",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d24b",
+  "medicine_name": "1Mile Household Glove Universal 10 Pair of Gloves",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹899",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "10 Pair of Gloves",
+  "category": "otc",
+  "skuID": "NE000000205",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d24d",
+  "medicine_name": "1Mile Plastic Glove Universal 200 Gloves",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹160",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "200 Gloves",
+  "category": "otc",
+  "skuID": "NE000000207",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d24e",
+  "medicine_name": "1Mile Plastic Glove Universal 500 Gloves",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹400",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "500 Gloves",
+  "category": "otc",
+  "skuID": "NE000000208",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d252",
+  "medicine_name": "AIO Disposable 3-Ply Face Mask Universal Blue 50 Face Masks",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹150",
+  "beingSold": true,
+  "packagingType": "packet",
+  "pack": "50 Face Masks",
+  "category": "otc",
+  "skuID": "NE000000212",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d253",
+  "medicine_name": "AIO Disposable 3-Ply Face Mask Universal Blue 100 Face Masks",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹299",
+  "beingSold": true,
+  "packagingType": "packet",
+  "pack": "100 Face Masks",
+  "category": "otc",
+  "skuID": "NE000000213",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d259",
+  "medicine_name": "1Mile Disposable Medical Examination Glove XS 20 Gloves",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹149",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "20 Gloves",
+  "category": "otc",
+  "skuID": "NE000000219",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d25e",
+  "medicine_name": "1Mile Household Glove Universal 50 Pair of Gloves",
+  "salt_composition": "",
+  "storage_details": "",
+  "mrp": "₹3999",
+  "beingSold": true,
+  "packagingType": "box",
+  "pack": "50 Pair of Gloves",
+  "category": "otc",
+  "skuID": "NE000000224",
+  "prescription_req": "false",
+  "marketed_by": "1Mile Healthcare",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d3a5",
+  "medicine_name": "3A Cef 250mg Tablet DT 10 tablet dt",
+  "salt_composition": "Cefuroxime (250mg)",
+  "storage_details": "Store below 30C",
+  "mrp": "₹280",
+  "beingSold": "true",
+  "packagingType": "strip or blister pack",
+  "pack": "10 tablet dt",
+  "category": "drugs",
+  "skuID": "NE000000551",
+  "prescription_req": "true",
+  "marketed_by": "3A Pharmaceuticals",
+  "hsn_scrapped": "not_found",
+  "sellLoose": true,
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+},
+{
+  "_id": "65185a7449a314cae6c0d3a6",
+  "medicine_name": "Triazid TZ 1000mg/125mg Injection 1 Injection",
+  "salt_composition": "Ceftriaxone (1000mg) + Tazobactum (125mg)",
+  "storage_details": "Store below 30°C",
+  "mrp": "₹147",
+  "beingSold": "true",
+  "packagingType": "injection",
+  "pack": "1 Injection",
+  "category": "drugs",
+  "skuID": "NE000000552",
+  "prescription_req": "true",
+  "marketed_by": "3A Pharmaceuticals",
+  "hsn_scrapped": "not_found",
+  "sellLoose": false,
+  "hsn": "30042019 ",
+  "Tdatetime_lastUpdated": "2024-10-27T16:13:17.548000",
+  "status": "Reviewed",
+  "Tdatetime_syncDateTime": "2025-03-22T16:05:28.270000",
+  "Tdatetime_updatedTime": "2025-03-23T16:31:02.522000",
+  "syncDateTime": {
+    "$date": "2025-05-23T15:47:56.829Z"
+  }
+}]

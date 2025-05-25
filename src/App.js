@@ -6,15 +6,6 @@ import SalesManagement from "./components/SalesManagement";
 const App = () => {
   const [currentFocus, setCurrentFocus] = useState(0);
 
-  // const handleKeyDown = (e) => {
-  //   if (e.key === "ArrowRight" || e.key === "Tab") {
-  //     setCurrentFocus((prev) => (prev + 1) % 20);
-  //   } else if (e.key === "ArrowLeft") {
-  //     setCurrentFocus((prev) => (prev - 1 + 20) % 20);
-  //   } else if (e.key === "Enter") {
-  //     document.activeElement.click();
-  //   }
-  // };
   useEffect(() => {
     const start = document.getElementById("initialbox");
     if (start) start.focus();

@@ -43,7 +43,7 @@ const TableFooter = () => {
         <button className="mx-2 text-gray-700 focus:bg-slate-600">1</button>
         
         <button className="p-1 mx-1 border border-gray-300 bg-white focus:bg-slate-600 rounded ">
-          <button className="px-2 font-medium text-gray-700 focus:bg-slate-600">2</button>
+          <div className="px-2 font-medium text-gray-700 focus:bg-slate-600">2</div>
         </button>
         
         <button className="p-1 mx-1 border border-gray-300 bg-white rounded focus:bg-slate-600">
