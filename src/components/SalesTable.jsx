@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useRef, useEffect , useState} from "react";
 import { Printer, Share2, Trash2 } from "lucide-react";
 import Fuse from "fuse.js";
 import medicines from "../constants/medicines_random.json";
@@ -13,39 +13,35 @@ function search(q) {
   return q ? fuse.search(q).map((r) => r.item) : [];
 }
 
-const SalesTable = ({ setCurrentFocus }) => {
-  const [sales, setSales] = useState([
-    {
-      id: "1",
-      itemName: "",
-      pack: "",
-      batch: "",
-      expiry: "",
-      quantityBulk: 0,
-      quantityLoose: 0,
-      mrp: 0,
-      discount: 0,
-      sellingRate: 0,
-      gst: 0,
-      amount: 0,
-      payMode: "",
-    },
-  ]);
+const SalesTable = ({
+  sales,
+  setSales,
+  focusedRowId,
+  setFocusedRowId,
+  focusedField,
+  setFocusedField,
+  setCurrentFocus,
+}) => {
   const [suggestions, setSuggestions] = useState({});
   const [focusedSuggestions, setFocusedSuggestions] = useState({});
-  const [focusedRowId, setFocusedRowId] = useState(sales[0].id); // Track focused row
 
   const containerRef = useRef(null);
-  const inputRefs = useRef({});
+  const inputRefs = useRef({}); // Stores refs like { [saleId]: { [field]: inputElement } }
   const globalKeyHandler = useRef(null);
 
-  // Focus first input on mount or when sales change
+  // Focus the correct input on mount or when sales/focusedRowId/focusedField change
   useEffect(() => {
-    const firstId = sales[0]?.id;
-    setFocusedRowId(firstId);
-    const firstInput = inputRefs.current[firstId];
-    if (firstInput) firstInput.focus();
-  }, [sales.length]);
+    // Check if focusedRowId exists in sales
+    const rowExists = sales.some((sale) => sale.id === focusedRowId);
+    const targetRowId = rowExists ? focusedRowId : sales[0]?.id;
+    const targetField = rowExists ? focusedField : "itemName";
+
+    if (targetRowId && inputRefs.current[targetRowId]?.[targetField]) {
+      inputRefs.current[targetRowId][targetField].focus();
+      setFocusedRowId(targetRowId); // Update to valid row if it was invalid
+      setFocusedField(targetField);
+    }
+  }, [sales, focusedRowId, focusedField, setFocusedRowId, setFocusedField]);
 
   // Global keyboard shortcuts (Ctrl+Q, Alt+Q, ArrowUp, ArrowDown)
   useEffect(() => {
@@ -75,6 +71,12 @@ const SalesTable = ({ setCurrentFocus }) => {
               delete nxt[removedId];
               return nxt;
             });
+            // If removing the focused row, focus the previous row
+            if (removedId === focusedRowId) {
+              const newIndex = prev.length - 2;
+              setFocusedRowId(prev[newIndex].id);
+              setFocusedField("itemName");
+            }
             return prev.slice(0, -1);
           }
           return prev;
@@ -98,14 +100,14 @@ const SalesTable = ({ setCurrentFocus }) => {
 
         const newSaleId = sales[newIndex].id;
         setFocusedRowId(newSaleId);
-        const newInput = inputRefs.current[newSaleId];
+        const newInput = inputRefs.current[newSaleId]?.[focusedField];
         if (newInput) newInput.focus();
       }
     };
     document.addEventListener("keydown", globalKeyHandler.current);
     return () =>
       document.removeEventListener("keydown", globalKeyHandler.current);
-  }, [sales, focusedRowId, suggestions]);
+  }, [sales, focusedRowId, focusedField, suggestions, setSales, setFocusedRowId, setFocusedField]);
 
   const handleKeyDown = (e, saleId) => {
     const list = suggestions[saleId] || [];
@@ -156,6 +158,8 @@ const SalesTable = ({ setCurrentFocus }) => {
         payMode: "",
       },
     ]);
+    setFocusedRowId(id);
+    setFocusedField("itemName");
   };
 
   const updateSale = (id, field, value) => {
@@ -181,9 +185,14 @@ const SalesTable = ({ setCurrentFocus }) => {
     return () => document.removeEventListener("click", handleClick);
   }, []);
 
-  // Register refs on each item-name input
-  const setInputRef = (id, el) => {
-    if (el) inputRefs.current[id] = el;
+  // Register refs for each input
+  const setInputRef = (saleId, field, el) => {
+    if (el) {
+      if (!inputRefs.current[saleId]) {
+        inputRefs.current[saleId] = {};
+      }
+      inputRefs.current[saleId][field] = el;
+    }
   };
 
   return (
@@ -231,8 +240,14 @@ const SalesTable = ({ setCurrentFocus }) => {
                         updateSale(sale.id, "itemName", e.target.value)
                       }
                       onKeyDown={(e) => handleKeyDown(e, sale.id)}
-                      onFocus={() => setFocusedRowId(sale.id)} // Update focused row on input focus
-                      ref={(el) => setInputRef(sale.id, el)}
+                      onFocus={() => {
+                        setFocusedRowId(sale.id);
+                        setFocusedField("itemName");
+                        if (typeof setCurrentFocus === "function") {
+                          setCurrentFocus("sales");
+                        }
+                      }}
+                      ref={(el) => setInputRef(sale.id, "itemName", el)}
                       className="w-24 text-xs border border-gray-300 rounded p-1"
                       placeholder="Search..."
                     />
@@ -263,7 +278,14 @@ const SalesTable = ({ setCurrentFocus }) => {
                       type="text"
                       value={sale[f]}
                       onChange={(e) => updateSale(sale.id, f, e.target.value)}
-                      onFocus={() => setFocusedRowId(sale.id)} // Update focused row
+                      onFocus={() => {
+                        setFocusedRowId(sale.id);
+                        setFocusedField(f);
+                        if (typeof setCurrentFocus === "function") {
+                          setCurrentFocus("sales");
+                        }
+                      }}
+                      ref={(el) => setInputRef(sale.id, f, el)}
                       className="w-full text-xs p-1 border border-gray-300 rounded"
                     />
                   </td>
@@ -275,7 +297,14 @@ const SalesTable = ({ setCurrentFocus }) => {
                     onChange={(e) =>
                       updateSale(sale.id, "expiry", e.target.value)
                     }
-                    onFocus={() => setFocusedRowId(sale.id)} // Update focused row
+                    onFocus={() => {
+                      setFocusedRowId(sale.id);
+                      setFocusedField("expiry");
+                      if (typeof setCurrentFocus === "function") {
+                        setCurrentFocus("sales");
+                      }
+                    }}
+                    ref={(el) => setInputRef(sale.id, "expiry", el)}
                     className="w-full text-xs p-1 border border-gray-300 rounded"
                   />
                 </td>
@@ -290,7 +319,14 @@ const SalesTable = ({ setCurrentFocus }) => {
                         parseInt(e.target.value) || 0
                       )
                     }
-                    onFocus={() => setFocusedRowId(sale.id)} // Update focused row
+                    onFocus={() => {
+                      setFocusedRowId(sale.id);
+                      setFocusedField("quantityBulk");
+                      if (typeof setCurrentFocus === "function") {
+                        setCurrentFocus("sales");
+                      }
+                    }}
+                    ref={(el) => setInputRef(sale.id, "quantityBulk", el)}
                     className="w-12 text-xs p-1 border border-gray-300 rounded"
                   />
                   <input
@@ -303,7 +339,14 @@ const SalesTable = ({ setCurrentFocus }) => {
                         parseInt(e.target.value) || 0
                       )
                     }
-                    onFocus={() => setFocusedRowId(sale.id)} // Update focused row
+                    onFocus={() => {
+                      setFocusedRowId(sale.id);
+                      setFocusedField("quantityLoose");
+                      if (typeof setCurrentFocus === "function") {
+                        setCurrentFocus("sales");
+                      }
+                    }}
+                    ref={(el) => setInputRef(sale.id, "quantityLoose", el)}
                     className="w-12 text-xs p-1 border border-gray-300 rounded"
                   />
                 </td>
@@ -319,7 +362,14 @@ const SalesTable = ({ setCurrentFocus }) => {
                           parseFloat(e.target.value) || 0
                         )
                       }
-                      onFocus={() => setFocusedRowId(sale.id)} // Update focused row
+                      onFocus={() => {
+                        setFocusedRowId(sale.id);
+                        setFocusedField(field);
+                        if (typeof setCurrentFocus === "function") {
+                          setCurrentFocus("sales");
+                        }
+                      }}
+                      ref={(el) => setInputRef(sale.id, field, el)}
                       className="w-full text-xs p-1 border border-gray-300 rounded"
                     />
                   </td>
@@ -336,8 +386,7 @@ const SalesTable = ({ setCurrentFocus }) => {
                             sale.payMode === mode
                               ? "bg-blue-600 text-white"
                               : "bg-white text-gray-800 border-gray-300"
-                          }
-                        `}
+                          }`}
                         onClick={() => updateSale(sale.id, "payMode", mode)}
                       >
                         {mode}
@@ -348,7 +397,14 @@ const SalesTable = ({ setCurrentFocus }) => {
                 <td className="py-3 px-1 text-sm">
                   <button
                     onClick={() =>
-                      setSales((prev) => prev.filter((s) => s.id !== sale.id))
+                      setSales((prev) => {
+                        const newSales = prev.filter((s) => s.id !== sale.id);
+                        if (sale.id === focusedRowId) {
+                          setFocusedRowId(newSales[newSales.length - 1]?.id || "");
+                          setFocusedField("itemName");
+                        }
+                        return newSales;
+                      })
                     }
                     className="text-red-500"
                   >
