@@ -1,4 +1,4 @@
-import React, { useRef, useEffect , useState} from "react";
+import React, { useRef, useEffect, useState } from "react";
 import { Printer, Share2, Trash2 } from "lucide-react";
 import Fuse from "fuse.js";
 import medicines from "../constants/medicines_random.json";
@@ -107,7 +107,15 @@ const SalesTable = ({
     document.addEventListener("keydown", globalKeyHandler.current);
     return () =>
       document.removeEventListener("keydown", globalKeyHandler.current);
-  }, [sales, focusedRowId, focusedField, suggestions, setSales, setFocusedRowId, setFocusedField]);
+  }, [
+    sales,
+    focusedRowId,
+    focusedField,
+    suggestions,
+    setSales,
+    setFocusedRowId,
+    setFocusedField,
+  ]);
 
   const handleKeyDown = (e, saleId) => {
     const list = suggestions[saleId] || [];
@@ -400,7 +408,9 @@ const SalesTable = ({
                       setSales((prev) => {
                         const newSales = prev.filter((s) => s.id !== sale.id);
                         if (sale.id === focusedRowId) {
-                          setFocusedRowId(newSales[newSales.length - 1]?.id || "");
+                          setFocusedRowId(
+                            newSales[newSales.length - 1]?.id || ""
+                          );
                           setFocusedField("itemName");
                         }
                         return newSales;
